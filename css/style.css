@@ -57,6 +57,7 @@ nav
 {   
     float: right;
     width: 700px;
+    height: auto;
     position: relative;
 }
 .content
@@ -75,6 +76,10 @@ nav
     display: block;
     box-shadow: -20px  0px 15px -15px black;
     z-index: -4;
+}
+footer
+{
+    height: 0px;
 }
 .foot
 {
@@ -137,8 +142,18 @@ ul
 }
 #QRcode
 {
-    text-align: right;
-    margin: 0;
+    float: right;
+    margin: auto;
+    width: 123px;
+    height: 123px;
+    vertical-align: middle;
+    transition: transform 0.3s ease-in-out;
+    z-index: 4;
+}
+#QRcode:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* Ribbons */
