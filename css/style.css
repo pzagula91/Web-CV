@@ -1,5 +1,6 @@
 body
-{   position: relative;
+{   
+    position: relative;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -119,7 +120,6 @@ nav
 .iconParagraph
 {
     text-align: right;
-    
 }
 .star
 {
@@ -131,7 +131,8 @@ nav
 {
     float: right;
 }
-ul {
+ul 
+{
   list-style: circle;
 }
 #QRcode
@@ -140,19 +141,16 @@ ul {
     margin: 0;
 }
 
-
 /* Ribbons */
 .ribbon
 {
-    position: relative;
-    
+    position: relative;  
 }
 .ribbonLabel
 {
     position: relative;
     left: 20px;
-    top: 10px;
-    
+    top: 10px; 
 }
 .ribbon-1
 {
@@ -177,9 +175,9 @@ ul {
 }
 .ribbon-1:after
 {
-   content: "";
+    content: "";
     position: absolute;
- right: -25px;
+    right: -25px;
     bottom: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
@@ -201,7 +199,7 @@ ul {
 }
 .ribbon-2:before
 {
-   content: "";
+    content: "";
     position: absolute;
     left: 0;
     top:-10px;
@@ -212,7 +210,7 @@ ul {
 }
 .ribbon-2:after
 {
-   content: "";
+    content: "";
     position: absolute;
     right: -25px;
     bottom: 0;
@@ -243,7 +241,7 @@ ul {
 
 .ribbon-3:after
 {
-   content: "";
+    content: "";
     position: absolute;
     right: -30px;
     bottom: 0;
@@ -268,7 +266,7 @@ ul {
 
 .ribbon-4:after
 {
-   content: "";
+    content: "";
     position: absolute;
     right: -25px;
     bottom: 0;
@@ -280,7 +278,6 @@ ul {
     z-index: -2;
 }
 
-
 /* Blub on/off toggle */
 #bulbToggle
 {
@@ -291,7 +288,8 @@ ul {
     vertical-align: middle;
     
 }
-.label {
+.label
+{
     display: inline-flex;
     background-color: #111;
     align-items: center;
@@ -307,13 +305,16 @@ ul {
 {
     cursor: pointer
 }
-#bulbOff{
+#bulbOff
+{
     color: #f1c40f;
 }
-.far.fa-lightbulb{
+.far.fa-lightbulb
+{
     color: #fff;
 }
-.ball {
+.ball
+{
     background-color: #fff;
     position: absolute;
     top: 2px;
@@ -330,6 +331,5 @@ ul {
 }
 .checkbox:checked + .label .ball
 {
-    transform: translateX(24px);
-    
+    transform: translateX(24px); 
 }
