@@ -12,7 +12,7 @@ body.dark
 }
 .page
 {
-  position: relative;
+    position: relative;
     width: 960px;
     margin-left: auto;
     margin-right: auto; 
@@ -39,7 +39,6 @@ nav
     align-items: center;
     display: flex;
 }
-
 #dAside
 {   
     float: left;
@@ -79,10 +78,6 @@ nav
     height: auto;
     box-shadow: -20px  0px 15px -15px black;
     z-index: -4;
-}
-footer
-{
-    /*height: 0px;*/
 }
 .foot
 {
@@ -137,6 +132,8 @@ footer
 {
     float: right;
 }
+
+/* Header and paragraph styles */
 #about h3
 {
     margin-top: 5px;
@@ -149,14 +146,12 @@ footer
 {
     margin-bottom: 5px;
 }
-
 #skills ul 
 {
     list-style: circle;
     margin-top: 6px;
     margin-bottom: 6px;
 }
-
 #education h4
 {   
     margin-bottom: 5px;
@@ -219,7 +214,7 @@ footer
 }
 .ribbon-1:before
 {
-   content: "";
+    content: "";
     position: absolute;
     left: 0;
     top:-10px;
@@ -276,7 +271,6 @@ footer
     box-shadow: 4.5px  14.5px 6px -11.5px black;
     z-index: -2;
 }
-
 .ribbonLabel3
 {
     position: relative;
@@ -293,7 +287,6 @@ footer
     background-color: #8a444c;
     z-index: ;
 }
-
 .ribbon-3:after
 {
     content: "";
@@ -307,7 +300,6 @@ footer
     box-shadow: 7px  17px 6px -14px black;
     z-index: -2;
 }
-
 .ribbon-4
 {
     box-shadow: -5px  5px 6px -2px black;
@@ -318,7 +310,6 @@ footer
     background-color: #8a444c;
     z-index: ;
 }
-
 .ribbon-4:after
 {
     content: "";
@@ -333,15 +324,14 @@ footer
     z-index: -2;
 }
 
-/* Blub on/off toggle */
+/* Blub on/off toggle - light/dark theme */
 #bulbToggle
 {
     display: inline-block;
     justify-content: center;
     align-items: center;
     margin: 0;
-    vertical-align: middle;
-    
+    vertical-align: middle; 
 }
 .label
 {
